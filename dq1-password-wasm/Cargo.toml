@@ -1,0 +1,11 @@
+[package]
+name = "dq1-password-wasm"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+dq1-password = { git = "https://github.com/taotao54321/dq1-password.git" }
+wasm-bindgen = { version = "0.2.78", features = ["serde-serialize"] }

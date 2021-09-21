@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+h1 {
+    text-align: center;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+}
+
+.PatternForm {
+    border: solid;
+    margin: 8px;
+    padding: 8px;
+}
+
+.PatternForm-pattern {
+    width: 35em;
+}
+
+.PatternForm-error {
+    color: red;
+}
+
+.PatternForm-charCount {
+    margin-left: 1em;
+}
+
+.PatternForm-buttons {
+    margin-top: 8px;
+    text-align: end;
+}
+
+.PasswordList {
+    border: solid;
+    margin: 8px;
+    padding: 8px;
+}
+
+.PasswordList-listItem:hover {
+    background-color: cyan;
+    cursor: pointer;
+}
+
+.GameStateForm {
+    border: solid;
+    margin: 8px 8px 8px 0;
+    padding: 8px;
+}
+
+.GameStateForm-error {
+    color: red;
+}
+
+.GameStateForm-labelTop {
+    vertical-align: text-top;
+}
+
+.GameStateForm-heroName {
+    width: 8em;
+}
+
+.GameStateForm-heroName-charCount {
+    margin-left: 1em;
+}
+
+.GameStateForm-heroXp {
+    width: 5em;
+}
+
+.GameStateForm-purse {
+    width: 5em;
+}
+
+.GameStateForm-herbCount {
+    width: 2em;
+}
+
+.GameStateForm-keyCount {
+    width: 2em;
+}
+
+.GameStateForm-salt {
+    width: 2em;
+}
+
+.GameStateForm-buttons {
+    text-align: end;
+}
